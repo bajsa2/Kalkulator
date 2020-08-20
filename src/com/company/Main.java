@@ -27,27 +27,28 @@ public class Main {
 
         switch (choice) {
             case 1:
-                if (choice == 1)
                     System.out.println("Wynik dodawania to = " + (firstNumber + secoundNumber));
 
-
+              break;
             case 2:
-                if (choice == 2)
                     System.out.println("Wynik odejmowania to = " + (firstNumber - secoundNumber));
 
-
+              break;
             case 3:
-                if (choice == 3)
                     System.out.println("Wynik mnozenia to = " + (firstNumber * secoundNumber));
 
-
+              break;
             case 4:
-                if (choice == 4)
                     System.out.println("Wynik dzielenia to = " + (firstNumber / secoundNumber));
 
+              break;
+
+            default:
+                System.out.println("Podany wariant nie istnieje");
 
 
 
       }
+
     }
 }
